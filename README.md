@@ -119,25 +119,22 @@ pip install ctkbuilder
 
 The following methods are essential for creating and customizing applications using the `CTkBuilder` class:
 
-1. **`build_widgets(self)`**  
+1. **`build_widgets()`**  
    This method creates all the widgets defined in the JSON file and adds them to the graphical interface. It is fundamental for building the UI.
 
-2. **`create_widget(self, widget_info)`**  
-   Creates an individual widget based on the details provided in the JSON (widget type, positioning, and configuration options). It is used by `build_widgets` to handle each widget.
-
-3. **`toggle_widget_state(self, widget_name, state)`**  
+2. **`toggle_widget_state(widget_name, state)`**  
    Changes the state of widgets (e.g., enabled or disabled). This is useful for dynamically controlling the interface based on user interaction or application state.
 
-4. **`preconfig_app(self, json_config)`**  
+3. **`preconfig_app(json_config)`**  
    Pre-configures the application settings, such as window size, title, and resizing options, using a JSON file. This is useful for initial window setup.
 
-5. **`apply_theme(self, theme_name, theme_file)`**  
+4. **`apply_theme(theme_name, theme_file)`**  
    Applies a custom theme to the interface. This allows dynamic changes to the UI styles (colors, text styles, etc.) from a JSON file that defines the themes.
 
-6. **`save_state(self)`**  
+5. **`save_state()`**  
    Saves the current states of the widgets, such as text in `Entry` fields or the state of `CheckBox` and `Switch` widgets. Useful for applications that need to preserve user input between sessions.
 
-7. **`load_state(self)`**  
+6. **`load_state()`**  
    Loads the saved states of widgets, allowing the restoration of the interface to a previously saved state. This can restore form inputs, selections, and other widget data.
 
 
