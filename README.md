@@ -15,14 +15,14 @@ CTkBuilder is a customizable framework built on top of CustomTkinter, allowing u
 ## 🛠 Installation
 - Clone the repository:
 ```bash
-   git clone https://github.com/mst4cks/CTkBuilder.git
-   cd ctkbuilder
-   pip install -r requirements.txt
+git clone https://github.com/mst4cks/CTkBuilder.git
+cd ctkbuilder
+pip install -r requirements.txt
    ```
 
 - Install with pip:
 ``` bash
-   pip install ctkbuilder
+pip install ctkbuilder
    ```   
 
 ## 📦 Usage
